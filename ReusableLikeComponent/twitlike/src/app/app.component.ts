@@ -12,7 +12,7 @@ export class AppComponent {
   post = {
     likeCount:13,
     isLiked:false,
-    customColor:"#FFCC00"
+    customColor:"#FFFF00"
   };
 
   onHeartChange(params:HeartParams){

@@ -1,0 +1,8 @@
+    <div class="card" style="width:600px;"  (click) = "onExpand()">
+        <div class="card-header">
+            <h5 class="card-title">{{cardTitle}} <span style="float: right" class="fa" [ngClass] = "{'fa-expand':!isExpanded,'fa-compress':isExpanded}"></span></h5>
+        </div>
+        <ng-content *ngIf="isExpanded">
+          </ng-content>
+      </div>
+
